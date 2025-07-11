@@ -11,8 +11,20 @@ This project is a minimal conversational AI chatbot built with:
 
 ## 🚀 How to Run (Quick Guide)
 
-1. pip install streamlit langchain langchain-core langchain-community langchain-ollama
-2. After installation, open a terminal and run:
-ollama pull mistral
-ollama run mistral
-3. streamlit run basic_ai_agent.py
+step 1. pip install streamlit langchain langchain-core langchain-community langchain-ollama
+step 2. After installation, open a terminal and run:
+        - ollama pull mistral
+step 3. streamlit run basic_ai_agent.py
+
+
+FYI:
+| Package               | Purpose                                    |
+| --------------------- | ------------------------------------------ |
+| `streamlit`           | Web app UI for interacting with your AI    |
+| `langchain`           | Framework for building smart AI agents     |
+| `langchain-core`      | Foundation of LangChain (prompts, schema)  |
+| `langchain-community` | Useful tools & integrations (memory, docs) |
+| `langchain-ollama`    | Connects LangChain to local Ollama models  |
+
+
+
